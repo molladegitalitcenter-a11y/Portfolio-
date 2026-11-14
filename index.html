@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মো: মোসলেহ উদ্দিন মোল্লা - পোর্টফোলিও</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f2f5;
+            color: #333;
+            padding-bottom: 50px;
+        }
+        header {
+            background: linear-gradient(135deg, #0056b3, #003366);
+            color: #fff;
+            padding: 4rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .profile-img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #fff;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        header p {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .container {
+            width: 90%;
+            max-width: 950px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #0056b3;
+            border-left: 5px solid #0056b3;
+            padding-left: 15px;
+            margin: 40px 0 20px 0;
+            font-size: 2rem;
+        }
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        p.bio-text {
+            font-size: 1.15rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            margin-top: 20px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 7px;
+            top: 5px;
+            bottom: 5px;
+            width: 3px;
+            background-color: #0056b3;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: -27px;
+            top: 5px;
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            background-color: #fff;
+            border: 3px solid #0056b3;
+        }
+        .job-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #222;
+        }
+        .company-name {
+            font-size: 1.15rem;
+            color: #0056b3;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .job-date {
+            display: inline-block;
+            background-color: #e7f1ff;
+            color: #0056b3;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .skill-item {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #444;
+            transition: transform 0.2s, background-color 0.2s;
+            display: flex;
+            align-items: center;
+        }
+        .skill-item:hover {
+            transform: translateY(-3px);
+            background-color: #edf2f7;
+            border-color: #cbd5e0;
+        }
+        .skill-item::before {
+            content: '✓';
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 12px;
+            font-size: 1.2rem;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.95rem;
+            color: #777;
+            margin-top: 50px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://i.postimg.cc/5tfdnfP9/FB-IMG-1794511566188.jpg" alt="মো: মোসলেহ উদ্দিন মোল্লা" class="profile-img">
+        <h1>মো: মোসলেহ উদ্দিন মোল্লা</h1>
+        <p>আইটি এক্সপার্ট, ডিজিটাল মার্কেটার ও সোশ্যাল অ্যাক্টিভিস্ট</p>
+    </header>
+
+    <div class="container">
+        <h2>আমার সম্পর্কে</h2>
+        <p class="bio-text">আমি একজন পেশাদার আইটি এক্সপার্ট এবং ডিজিটাল মার্কেটার। প্রযুক্তির মাধ্যমে মানুষের বিভিন্ন সমস্যার কার্যকর সমাধান করা এবং সামাজিক উন্নয়নমূলক কাজে নিজেকে সক্রিয়ভাবে নিয়োজিত রাখতে ভালোবাসি।</p>
+        
+        <h2>পেশাগত অভিজ্ঞতা</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="job-title">পেশাগত দায়িত্ব</div>
+                <div class="company-name">কে আলী মা ও শিশু হসপিটাল প্রাইভেট লিমিটেড</div>
+                <div class="job-date">ডিসেম্বর ২০২৫ - বর্তমান</div>
+                <p>হসপিটালের তথ্য প্রযুক্তি ও ডিজিটাল কার্যক্রম পরিচালনা এবং সংশ্লিষ্ট প্রজেক্টের সফল বাস্তবায়ন।</p>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="job-title">পেশাগত দায়িত্ব</div>
+                <div class="company-name">আরব বিল্ডার্স</div>
+                <div class="job-date">পূর্ববর্তী অভিজ্ঞতা</div>
+                <p>নির্মাণ ও উন্নয়ন খাতের প্রাতিষ্ঠানিক প্রয়োজনে আইটি ও ডিজিটাল ব্যবস্থাপনা সমন্বয়।</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="job-title">পেশাগত দায়িত্ব</div>
+                <div class="company-name">সিগমা ক্যামিকেল প্রাইভেট লিমিটেড</div>
+                <div class="job-date">ক্যারিয়ারের শুরুতে</div>
+                <p>প্রাতিষ্ঠানিক কর্মদক্ষতা বৃদ্ধি এবং টেকনিক্যাল সাপোর্টের মাধ্যমে কার্যপরিচালনা।</p>
+            </div>
+        </div>
+
+        <h2>দক্ষতা ও সেবাসমূহ</h2>
+        <div class="skills-grid">
+            <div class="skill-item">প্রফেশনাল ফেসবুক পেজ তৈরি ও ম্যানেজমেন্ট</div>
+            <div class="skill-item">ওয়েব ডিজাইন ও ই-কমার্স সাইট ডেভেলপমেন্ট</div>
+            <div class="skill-item">গুগল ম্যাপে ব্যবসায়িক প্রতিষ্ঠানের অন্তর্ভুক্তি</div>
+            <div class="skill-item">মেটা এবং গুগল অ্যাডস ক্যাম্পেইন পরিচালনা</div>
+            <div class="skill-item">সোশ্যাল মিডিয়া কন্টেন্ট ক্রিয়েশন ও বুস্টিং</div>
+            <div class="skill-item">আইডি ভেরিফিকেশন ও রিকভারি সেবা</div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; ২০২৬ মো: মোসলেহ উদ্দিন মোল্লা। সর্বস্বত্ব সংরক্ষিত।
+    </footer>
+
+</body>
+</html>
